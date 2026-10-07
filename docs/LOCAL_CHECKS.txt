@@ -1,0 +1,32 @@
+INFO: File `gltest.config.yaml` found in the current directory, using it
+INFO: Clearing artifacts directory: artifacts
+INFO: Using the following configuration:
+INFO:   RPC URL: https://studio.genlayer.com/api
+INFO:   Selected Network: studionet
+INFO:   Available networks: ['studionet']
+INFO:   Selected chain type: studionet
+INFO:   Available chains: localnet, studionet, testnet_asimov, testnet_bradbury
+INFO:   Contracts directory: contracts
+INFO:   Artifacts directory: artifacts
+INFO:   Environment: .env
+INFO:   Default wait interval: 3000 ms
+INFO:   Default wait retries: 50
+INFO:   Leader only mode: False
+........................................................................ [100%]
+72 passed in 3.63s
+
+✓ Lint passed (3 checks)
+✓ Validation passed
+  Contract: PatchBond
+  Methods: 14 (6 view, 8 write)
+  ℹ py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes.
+
+✓ Validation passed
+  Contract: PatchBond
+  Methods: 14 (6 view, 8 write)
+  ℹ py-genlayer: a newer runner is available (1zr6nqk597d97kg0dyxg0shhrykx5v02zjgnyrajapy4wlqvfvwh). See https://github.com/genlayerlabs/genvm/releases for changes.
+Type checking patchbond.py...
+
+✓ No type errors found
+
+Schema written to docs/contract-schema.json

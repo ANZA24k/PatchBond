@@ -1,0 +1,7 @@
+paths:
+  contracts: contracts
+networks:
+  default: studionet
+  studionet:
+    leader_only: false
+    url: https://studio.genlayer.com/api

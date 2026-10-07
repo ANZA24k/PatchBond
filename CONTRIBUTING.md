@@ -1,0 +1,3 @@
+# Contributing
+
+Use Python 3.12 and pinned dependencies. Run `bash scripts/check.sh`. Keep contract source self-contained for GenVM deployment; host scripts must not be imported by the contract. Do not add a DApp or centralized oracle. Add meaningful tests for each changed protocol/security behavior and independently rerun validator closures. Preserve immutable terms, commitment domain, canonical serialization and accounting invariants. Never overwrite deployed source evidence: any contract change requires a new deployment and verification record. Do not commit keys, salts before reveal, .env files or private account material.
