@@ -1,0 +1,9 @@
+PatchBond fixture local test report
+UTC: 2026-10-07T18:57:23.032880+00:00
+Baseline: 072aba48f4fd587b00f883eda1d9d7a030866b2b
+Command: python -m pytest fixtures/live_patch/test_clamp.py -q
+Environment: Python 3.12.14, pytest 9.1.1
+No remote code execution or authenticated CI claim. Independently inspect code and tests.
+
+                                                     [100%]
+20 passed in 0.03s
